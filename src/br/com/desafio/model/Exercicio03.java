@@ -51,7 +51,7 @@ public class Exercicio03 {
       
         //imprime cada substring em uma linha
         for (int i = 0; i < linhas.size(); i++) {
-            System.out.println(linhas.get(i));
+            System.out.print(linhas.get(i)+" ");
         }
     }
     
