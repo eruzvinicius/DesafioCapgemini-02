@@ -29,13 +29,11 @@ public class Exercicio01 {
         return mediana;
     }
      
-    public static void main(String[] args) {
-        int tamanho;             
-        Scanner sc = new Scanner(System.in);
-        
+    public static void main(String[] args) {       
         int[] array = {9,2,1,4,6};
         
-        
+//        int tamanho;             
+//        Scanner sc = new Scanner(System.in);       
 //        //solicita tamanho para o array;;
 //        do{
 //          System.out.print("Insira um tamanho ímpar para o array: ");
