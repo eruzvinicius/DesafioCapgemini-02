@@ -23,8 +23,8 @@ public class Exercicio01 {
         Arrays.sort(arrayNumeros);
         tamanhoArray = arrayNumeros.length;
 
-        posicaoMediana = (int) Math.ceil(tamanhoArray/2);        
-        mediana = arrayNumeros[posicaoMediana];
+        posicaoMediana = (int) Math.ceil(tamanhoArray/2.0);
+        mediana = arrayNumeros[posicaoMediana-1];
         
         return mediana;
     }
